@@ -580,6 +580,16 @@ To ensure academic honesty, the following testing boundaries are explicitly reco
 2. **Browser Interaction Testing:** Automated tests cover the complete HTTP API and shared computation layers. Direct browser DOM manipulations (mouse clicks, form typing) were verified through manual inspection and visual rendering verification in headless Chrome, rather than automated end-to-end browser drivers (e.g., Cypress or Playwright).
 3. **Execution Dependency on Credentials:** In live execution mode, the application requires valid user-supplied API keys with active billing quotas.
 
+### 4.7 Production Application Interface Gallery
+
+The following figures illustrate the actual, working user interface and operational screens captured directly from the live application:
+
+- **Prompt Crash Lab – Dashboard Interface:** Complete dashboard interface displaying the 3D Crash Core, operational metrics (prompts tested, test cases, pass rates), and crash workflow controls.
+- **Testing Studio:** Real-time prompt submission interface featuring the 11 static lint rules (structural robustness score: 96/100) and constraint configuration.
+- **Test Case Lab:** Adversarial test suite repository displaying test cases across all 8 dimensions with pass/fail indicators.
+- **Failure Analysis:** Diagnostic failure detection studio with severity breakdown charts and categorical classification.
+- **Prompt Optimizer:** Intent-preserving prompt optimization view with line-level diff highlighting structural improvements and detected weaknesses.
+
 ---
 
 # SECTION 5: GITHUB REPOSITORY AND DEPLOYMENT
